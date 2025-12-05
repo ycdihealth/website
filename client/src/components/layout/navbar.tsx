@@ -28,7 +28,7 @@ export function Navbar() {
         <Link href="/">
           <a className="flex items-center gap-2 font-heading text-2xl font-bold text-primary hover:opacity-90 transition-opacity">
             <Leaf className="h-6 w-6 fill-primary" />
-            You Can Do It
+            You Can Do It Health Coaching
           </a>
         </Link>
 
