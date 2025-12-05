@@ -3,6 +3,7 @@ import { Footer } from "@/components/layout/footer";
 import { Hero } from "@/components/sections/hero";
 import { Features } from "@/components/sections/features";
 import { Newsletter } from "@/components/sections/newsletter";
+import { PersonalizedCoaching } from "@/components/sections/personalized-coaching";
 import { motion } from "framer-motion";
 import coachImage from "@assets/generated_images/friendly_health_coach_portrait.png";
 import { Link } from "wouter";
@@ -16,6 +17,7 @@ export default function Home() {
       <main className="flex-grow">
         <Hero />
         <Features />
+        <PersonalizedCoaching />
         
         {/* Meet Coach Teaser Section */}
         <section id="meet" className="py-24 bg-secondary/30">
