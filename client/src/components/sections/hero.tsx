@@ -22,9 +22,6 @@ export function Hero() {
           transition={{ duration: 0.8 }}
           className="max-w-2xl space-y-6"
         >
-          <span className="inline-block px-4 py-1.5 rounded-full bg-primary/10 text-primary text-sm font-semibold tracking-wide uppercase">
-            Reclaim Your Vitality
-          </span>
           <h1 className="font-heading text-5xl md:text-7xl font-bold text-foreground leading-[1.1]">
             Hey, You Deserve to Feel Amazing
           </h1>
