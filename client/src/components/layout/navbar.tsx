@@ -51,7 +51,7 @@ export function Navbar() {
             Newsletter
           </button>
           <Button asChild variant="default" size="lg" className="rounded-full font-semibold shadow-md hover:shadow-lg transition-all">
-            <a href="https://calendly.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://calendly.com/youcandoithealth/free-discovery-call?back=1" target="_blank" rel="noopener noreferrer">
               Free Discovery Call
             </a>
           </Button>
@@ -91,7 +91,7 @@ export function Navbar() {
               Newsletter
             </button>
             <Button asChild className="w-full mt-4 rounded-full" size="lg">
-              <a href="https://calendly.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://calendly.com/youcandoithealth/free-discovery-call?back=1" target="_blank" rel="noopener noreferrer">
                 Free Discovery Call
               </a>
             </Button>

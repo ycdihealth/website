@@ -33,7 +33,7 @@ export function Hero() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 pt-4">
             <Button asChild size="xl" className="rounded-full text-lg px-8 h-14 bg-primary hover:bg-primary/90 shadow-lg hover:shadow-xl transition-all">
-              <a href="https://calendly.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://calendly.com/youcandoithealth/free-discovery-call?back=1" target="_blank" rel="noopener noreferrer">
                 Let’s Do This!
               </a>
             </Button>

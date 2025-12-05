@@ -65,7 +65,7 @@ export default function MeetCoach() {
 
               <div className="pt-8">
                 <Button size="xl" className="rounded-full px-8 bg-primary hover:bg-primary/90 text-white">
-                  <a href="https://calendly.com" target="_blank" rel="noreferrer">
+                  <a href="https://calendly.com/youcandoithealth/free-discovery-call?back=1" target="_blank" rel="noreferrer">
                     Schedule Your Free Discovery Call
                   </a>
                 </Button>
