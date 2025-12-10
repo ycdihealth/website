@@ -55,12 +55,8 @@ export function LifestyleApproach() {
                   hether you want more energy, to lose weight, to break a plateau, or to finally feel strong again, I’ve got you. My approach? <strong>Lifestyle changes over extremes.</strong>
                 </p>
                 <p className="mt-4">
-                  Counting macros can help short-term, but nobody wants to spend the rest of their life logging every blueberry.
+                  Counting macros can help short-term, but nobody wants to spend the rest of their life logging every blueberry. You’ll learn the fundamentals that lead to lasting results - without needing to obsess over an app.
                 </p>
-              </div>
-              
-              <div className="bg-background p-6 rounded-2xl border-l-4 border-accent italic text-foreground/80 shadow-sm">
-                "You’ll learn the fundamentals that lead to lasting results - without needing to obsess over an app."
               </div>
             </div>
 
