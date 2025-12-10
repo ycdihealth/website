@@ -3,7 +3,7 @@ import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
-import logoImage from "@assets/FINAL_You_Can_Do_It_Health_Coaching_(400x400)_ROUND_1764900590206.png";
+import logoImage from "@assets/HORIZONTAL_You_Can_Do_It_Health_Coaching_(400_x_200_px)_1765408281442.png";
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -28,7 +28,7 @@ export function Navbar() {
       <div className="container flex h-24 items-center justify-between px-4 md:px-8">
         <Link href="/">
           <a className="flex items-center gap-2 hover:opacity-90 transition-opacity">
-            <img src={logoImage} alt="You Can Do It Health Coaching" className="h-20 w-20 object-contain" />
+            <img src={logoImage} alt="You Can Do It Health Coaching" className="h-20 w-auto object-contain" />
           </a>
         </Link>
 
