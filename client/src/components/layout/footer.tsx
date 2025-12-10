@@ -29,8 +29,7 @@ export function Footer() {
           {/* Brand Column */}
           <div className="md:col-span-1 space-y-4">
             <div className="flex items-center gap-2">
-              <img src={logoImage} alt="You Can Do It Health Coaching" className="h-12 w-auto object-contain" />
-              <h3 className="font-heading text-xl font-bold text-primary">You Can Do It Health Coaching</h3>
+              <img src={logoImage} alt="You Can Do It Health Coaching" className="h-24 w-auto object-contain" />
             </div>
             <p className="text-muted-foreground text-sm leading-relaxed">
               Empowering you to live your healthiest, happiest life through personalized coaching and sustainable habits.
