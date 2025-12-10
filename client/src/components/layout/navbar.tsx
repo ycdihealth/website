@@ -25,10 +25,10 @@ export function Navbar() {
 
   return (
     <nav className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container flex h-24 items-center justify-between px-4 md:px-8">
+      <div className="container flex h-32 items-center justify-between px-4 md:px-8">
         <Link href="/">
           <a className="flex items-center gap-2 hover:opacity-90 transition-opacity">
-            <img src={logoImage} alt="You Can Do It Health Coaching" className="h-20 w-auto object-contain" />
+            <img src={logoImage} alt="You Can Do It Health Coaching" className="h-28 w-auto object-contain" />
           </a>
         </Link>
 
@@ -69,7 +69,7 @@ export function Navbar() {
 
       {/* Mobile Nav */}
       {isOpen && (
-        <div className="md:hidden absolute top-20 left-0 w-full bg-background border-b border-border animate-in slide-in-from-top-5 fade-in duration-200">
+        <div className="md:hidden absolute top-32 left-0 w-full bg-background border-b border-border animate-in slide-in-from-top-5 fade-in duration-200">
           <div className="flex flex-col p-6 gap-4">
             {navLinks.map((link) => (
               <Link key={link.href} href={link.href}>
