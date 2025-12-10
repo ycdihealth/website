@@ -15,7 +15,7 @@ export function Accountability() {
             <img 
               src={accountabilityImage} 
               alt="Supportive coach messaging 'You've got this!'" 
-              className="relative z-10 w-full max-w-md hover:scale-105 transition-transform duration-500 drop-shadow-lg"
+              className="relative z-10 w-full max-w-xl hover:scale-105 transition-transform duration-500 drop-shadow-lg"
             />
           </div>
 
