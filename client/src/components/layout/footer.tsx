@@ -41,7 +41,7 @@ export function Footer() {
               <a href="https://www.facebook.com/youcandoithealth" target="_blank" rel="noopener noreferrer" className="text-foreground/60 hover:text-primary transition-colors hover-elevate p-2 rounded-full bg-background border border-border/50">
                 <Facebook className="h-5 w-5" />
               </a>
-              <a href="#" className="text-foreground/60 hover:text-primary transition-colors hover-elevate p-2 rounded-full bg-background border border-border/50">
+              <a href="https://www.tiktok.com/@youcandoithealth" target="_blank" rel="noopener noreferrer" className="text-foreground/60 hover:text-primary transition-colors hover-elevate p-2 rounded-full bg-background border border-border/50">
                 <TikTok className="h-5 w-5" />
               </a>
               <a href="#" className="text-foreground/60 hover:text-primary transition-colors hover-elevate p-2 rounded-full bg-background border border-border/50">
