@@ -21,7 +21,7 @@ export default function LegalPage() {
           <div className="prose prose-stone max-w-none">
             {location.includes("privacy") && (
               <>
-                <p className="text-sm text-muted-foreground mb-6">Last Updated: 11/25/25</p>
+                <p className="text-sm text-muted-foreground mb-6">Last Updated: 12/10/25</p>
                 
                 <h3 className="text-xl font-bold mt-8 mb-4">1. Introduction</h3>
                 <p>
