@@ -8,6 +8,8 @@ import Home from "@/pages/home";
 import MeetCoach from "@/pages/meet-coach";
 import LegalPage from "@/pages/legal";
 
+import ContactPage from "@/pages/contact";
+
 function Router() {
   return (
     <Switch>
@@ -15,7 +17,7 @@ function Router() {
       <Route path="/meet-coach" component={MeetCoach} />
       <Route path="/privacy" component={LegalPage} />
       <Route path="/disclaimer" component={LegalPage} />
-      <Route path="/contact" component={LegalPage} />
+      <Route path="/contact" component={ContactPage} />
       <Route component={NotFound} />
     </Switch>
   );
