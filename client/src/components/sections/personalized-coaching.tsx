@@ -3,7 +3,7 @@ import { Heart, Utensils } from "lucide-react";
 
 export function PersonalizedCoaching() {
   return (
-    <section className="py-24 bg-background">
+    <section className="pt-8 pb-24 bg-background">
       <div className="container px-4 md:px-8">
         <div className="max-w-4xl mx-auto text-center space-y-8">
           <div className="inline-flex items-center justify-center p-3 bg-accent/10 rounded-full mb-4">
