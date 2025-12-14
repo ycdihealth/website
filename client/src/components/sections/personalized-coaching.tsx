@@ -32,7 +32,7 @@ export function PersonalizedCoaching() {
             <Button asChild size="xl" className="rounded-full text-lg px-10 h-16 bg-primary hover:bg-primary/90 text-white shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all">
               <a href="https://calendly.com/youcandoithealth/free-discovery-call?back=1" target="_blank" rel="noopener noreferrer">
                 <Utensils className="mr-2 h-5 w-5" />
-                Tell Me What You Love to Eat
+                Calm the Food Chaos
               </a>
             </Button>
           </div>
