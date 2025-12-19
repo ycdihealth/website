@@ -56,6 +56,7 @@ export function Footer() {
             <ul className="space-y-3 text-sm text-muted-foreground">
               <li><Link href="/"><a className="hover:text-primary transition-colors">Home</a></Link></li>
               <li><Link href="/meet-coach"><a className="hover:text-primary transition-colors">Meet Your Coach</a></Link></li>
+              <li><Link href="/pricing"><a className="hover:text-primary transition-colors">Pricing</a></Link></li>
               <li><a href="https://calendly.com/youcandoithealth/free-discovery-call?back=1" target="_blank" rel="noreferrer" className="hover:text-primary transition-colors">Discovery Call</a></li>
             </ul>
           </div>

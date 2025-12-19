@@ -12,6 +12,7 @@ export function Navbar() {
   const navLinks = [
     { name: "Home", href: "/" },
     { name: "Meet Your Coach", href: "/meet-coach" },
+    { name: "Pricing", href: "/pricing" },
   ];
 
   const handleNewsletterClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
