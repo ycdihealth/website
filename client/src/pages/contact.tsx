@@ -72,7 +72,14 @@ export default function ContactPage() {
         form.reset();
       } else {
         console.error("Server responded with error:", json);
-        throw new Error(json?.message || "Failed to send message. Please try again.");
+        const message = json?.message || "Failed to send message.";
+        
+        // Check for domain blocking specifically
+        if (message.toLowerCase().includes("domain") || message.toLowerCase().includes("blocked")) {
+          throw new Error("Domain not whitelisted. Please add this URL to your Web3Forms settings.");
+        }
+        
+        throw new Error(message);
       }
     })
     .catch(error => {
