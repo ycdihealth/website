@@ -36,23 +36,23 @@ export default function ContactPage() {
   });
 
   function onSubmit(values: z.infer<typeof formSchema>) {
-    // In a real app, this would send to a backend.
-    // Since this is a frontend prototype, we'll simulate the email sending
-    // and show a success message.
-    
-    console.log("Form submitted:", values);
-    
-    // Simulate network delay
-    setTimeout(() => {
-      toast({
-        title: "Message Sent!",
-        description: "Thanks for reaching out. I'll get back to you in a jiffy!",
-      });
-      form.reset();
-      
-      // Optional: Open mailto link as a fallback/actual action if client-side only
-      // window.location.href = `mailto:youcandoithealth@gmail.com?subject=New Message from ${values.name}&body=${values.message}`;
-    }, 1000);
+    // Construct the mailto link
+    const subject = encodeURIComponent(`New Message from ${values.name}`);
+    const body = encodeURIComponent(`${values.message}\n\nFrom: ${values.name} (${values.email})`);
+    const mailtoLink = `mailto:youcandoithealth@gmail.com?subject=${subject}&body=${body}`;
+
+    // Show success feedback
+    toast({
+      title: "Opening Email Client...",
+      description: "Drafting your message to Andrea!",
+      duration: 3000,
+    });
+
+    // Reset form
+    form.reset();
+
+    // Open default email client
+    window.location.href = mailtoLink;
   }
 
   return (
