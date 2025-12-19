@@ -33,22 +33,22 @@ export function Accountability() {
               
               <div className="flex flex-col gap-4 pt-2">
                 <div className="flex items-start gap-3">
-                   <div className="w-8 h-8 rounded-full bg-accent/10 flex items-center justify-center shrink-0 mt-1">
+                   <div className="w-8 h-8 rounded-full bg-accent/10 flex items-center justify-center shrink-0">
                      <Calendar className="w-4 h-4 text-accent" />
                    </div>
-                   <p className="text-base text-foreground/80">Weekly strategy calls to keep you on track.</p>
+                   <p className="text-base text-foreground/80 pt-1">Weekly strategy calls to keep you on track.</p>
                 </div>
                 <div className="flex items-start gap-3">
-                   <div className="w-8 h-8 rounded-full bg-accent/10 flex items-center justify-center shrink-0 mt-1">
+                   <div className="w-8 h-8 rounded-full bg-accent/10 flex items-center justify-center shrink-0">
                      <MessageCircle className="w-4 h-4 text-accent" />
                    </div>
-                   <p className="text-base text-foreground/80">Daily check-ins so you never feel alone.</p>
+                   <p className="text-base text-foreground/80 pt-1">Daily check-ins so you never feel alone.</p>
                 </div>
                 <div className="flex items-start gap-3">
-                   <div className="w-8 h-8 rounded-full bg-accent/10 flex items-center justify-center shrink-0 mt-1">
+                   <div className="w-8 h-8 rounded-full bg-accent/10 flex items-center justify-center shrink-0">
                      <Sun className="w-4 h-4 text-accent" />
                    </div>
-                   <p className="text-base text-foreground/80">And yes, everything is 100% online. If you’re in San Diego, we can even meet for a walk during your session - sunshine included at no extra charge.</p>
+                   <p className="text-base text-foreground/80 pt-1">And yes, everything is 100% online. If you’re in San Diego, we can even meet for a walk during your session - sunshine included at no extra charge.</p>
                 </div>
               </div>
             </div>
