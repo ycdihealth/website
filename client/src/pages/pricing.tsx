@@ -36,7 +36,7 @@ export default function PricingPage() {
                   "Weekly 1:1 sessions",
                   "Individualized nutrition coaching",
                   "Lifestyle & habit guidance",
-                  "Accountability check-ins",
+                  "Daily accountability check-ins",
                   "Access to exclusive resources",
                   "Ongoing support"
                 ].map((feature, i) => (
