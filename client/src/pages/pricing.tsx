@@ -207,6 +207,25 @@ export default function PricingPage() {
 
           </div>
 
+          {/* Add-ons */}
+          <div className="mt-16 max-w-3xl mx-auto bg-primary/5 border border-primary/20 rounded-3xl p-8 sm:p-10 shadow-sm">
+            <div className="flex flex-col md:flex-row items-center justify-between gap-6">
+              <div className="space-y-3 text-center md:text-left">
+                <div className="flex items-center justify-center md:justify-start gap-2">
+                  <Zap className="h-6 w-6 text-primary" />
+                  <h3 className="font-heading text-2xl font-bold">Optional Add-on</h3>
+                </div>
+                <p className="text-muted-foreground text-lg">
+                  <strong className="text-foreground">Weekly Workouts:</strong> Add a fully customized weekly workout program to any of the coaching plans above.
+                </p>
+              </div>
+              <div className="text-center md:text-right shrink-0 bg-background px-6 py-4 rounded-2xl border border-border shadow-sm">
+                <div className="font-bold text-3xl text-primary">+$100</div>
+                <div className="text-sm font-medium text-muted-foreground uppercase tracking-wider mt-1">per month</div>
+              </div>
+            </div>
+          </div>
+
           {/* Bottom CTA */}
           <div className="mt-24 text-center bg-accent/10 rounded-3xl p-12 max-w-4xl mx-auto border border-accent/20">
             <h2 className="font-heading text-3xl md:text-4xl font-bold mb-6">
