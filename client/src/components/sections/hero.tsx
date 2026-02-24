@@ -28,7 +28,7 @@ export function Hero() {
             Hey, You Deserve to Feel Amazing
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground max-w-lg leading-relaxed">
-            Let’s team up and make a plan that fits your real life with simple habits, personalized online guidance, and remote support every step of the way.
+            Let’s team up and make a plan that fits your real life with simple habits, personalized online guidance, and support every step of the way.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 pt-4">
             <Button asChild size="xl" className="rounded-full text-lg px-8 h-14 bg-primary hover:bg-primary/90 shadow-lg hover:shadow-xl transition-all">
