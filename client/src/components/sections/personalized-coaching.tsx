@@ -25,7 +25,7 @@ export function PersonalizedCoaching() {
           </p>
           
           <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-3xl mx-auto">
-            I support you remotely through all phases of life, with nutrition guidance that fuels your body and still lets you enjoy the foods you love.
+            I support you through all phases of life, with nutrition guidance that fuels your body and still lets you enjoy the foods you love.
           </p>
           
           <div className="pt-8">
