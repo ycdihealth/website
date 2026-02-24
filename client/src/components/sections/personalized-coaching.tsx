@@ -21,11 +21,11 @@ export function PersonalizedCoaching() {
           </h2>
           
           <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-3xl mx-auto">
-            You’re unique and your health coaching plan should be too. Your coaching program is built around your goals, your schedule, and your real life (yes, the one where you like carbs and have zero interest in giving up your favorite foods).
+            You’re unique and your health coaching plan should be too. Your 100% online coaching program is built around your goals, your schedule, and your real life (yes, the one where you like carbs and have zero interest in giving up your favorite foods). Virtual sessions mean you can get expert support from anywhere.
           </p>
           
           <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-3xl mx-auto">
-            I support you through all phases of life, with nutrition guidance that fuels your body and still lets you enjoy the foods you love.
+            I support you remotely through all phases of life, with nutrition guidance that fuels your body and still lets you enjoy the foods you love.
           </p>
           
           <div className="pt-8">
