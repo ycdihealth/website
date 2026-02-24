@@ -55,7 +55,7 @@ export default function PricingPage() {
           <div className="grid lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
             
             {/* 3-Month Plan */}
-            <div className="flex flex-col bg-background border border-border rounded-3xl overflow-hidden shadow-sm hover:shadow-md transition-shadow relative">
+            <div className="flex flex-col bg-background border border-border rounded-3xl overflow-hidden shadow-sm hover:shadow-md transition-shadow relative order-3 lg:order-1">
               <div className="p-8 space-y-6 flex-grow">
                 <div className="space-y-2">
                   <h3 className="font-heading text-2xl font-bold">3-Month Plan</h3>
@@ -101,7 +101,7 @@ export default function PricingPage() {
             </div>
 
             {/* 6-Month Plan */}
-            <div className="flex flex-col bg-background border border-border rounded-3xl overflow-hidden shadow-sm hover:shadow-md transition-shadow relative">
+            <div className="flex flex-col bg-background border border-border rounded-3xl overflow-hidden shadow-sm hover:shadow-md transition-shadow relative order-2 lg:order-2">
               <div className="p-8 space-y-6 flex-grow">
                 <div className="space-y-2">
                   <h3 className="font-heading text-2xl font-bold">6-Month Plan</h3>
@@ -150,7 +150,7 @@ export default function PricingPage() {
             </div>
 
             {/* 12-Month Plan - Featured */}
-            <div className="flex flex-col bg-background border-2 border-primary rounded-3xl overflow-hidden shadow-xl relative scale-105 z-10">
+            <div className="flex flex-col bg-background border-2 border-primary rounded-3xl overflow-hidden shadow-xl relative scale-105 z-10 order-1 lg:order-3">
               <div className="absolute top-0 right-0 bg-primary text-white text-xs font-bold px-3 py-1 rounded-bl-xl">
                 MOST POPULAR
               </div>
