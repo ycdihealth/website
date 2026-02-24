@@ -40,9 +40,6 @@ export default function MeetCoach() {
                     <span className="text-sm text-muted-foreground">Precision Nutrition Level 1 Nutrition Coaching Certification</span>
                   </li>
                   <li className="flex flex-col gap-1">
-                    <span className="text-sm text-muted-foreground">Active member of the Fitness Advancement Mentorship program led by Alan Aragon</span>
-                  </li>
-                  <li className="flex flex-col gap-1">
                     <span className="text-sm text-muted-foreground">ISSA Certified Personal Trainer</span>
                   </li>
                 </ul>
