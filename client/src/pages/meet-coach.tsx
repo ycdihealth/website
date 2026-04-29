@@ -48,19 +48,19 @@ export default function MeetCoach() {
             
             <div className="md:col-span-7 space-y-6 text-lg text-muted-foreground leading-relaxed">
               <p>
-                Hi, I’m Andrea - a 44-year-old mom of two, Certified Nutrition Coach, and someone who has collected more medical plot twists than most TV dramas. I’ve navigated a complicated pregnancy, treatment for a rare tumor, a hysterectomy, and even open-heart surgery for a congenital defect. (If you ever need someone to fill out complicated hospital paperwork quickly, I’m your girl.)
+                Hi, I'm Andrea, a 44-year-old mom of two, Certified Nutrition Coach, and someone who has always been deeply curious about how the body works and what it truly needs to thrive.
               </p>
               <p>
-                Going through all of that completely reshaped how I think about health, stress, and self-care. Spoiler: it’s not about perfection, restriction, or pretending celery juice is a personality.
+                My passion for nutrition and health started as a personal journey. Through some of life's bigger challenges and transitions, I found myself diving headfirst into nutrition science, behavior change, and the psychology of sustainable habits. What began as a hobby (reading every study I could find, experimenting with my own routines, and genuinely geeking out over the research) eventually became a calling.
               </p>
               <p>
-                With the help of my own coach, I rebuilt my habits from scratch. I left a high-stress career, healed my relationship with food, gave up alcohol, started resistance training, and even completed an 80-mile hike through the Cotswolds - yes, on purpose. And I learned one of the most life-changing truths out there: there are no “bad” foods, and fad diets deserve to retire permanently.
+                With the help of my own coach, I rebuilt my habits from scratch. I healed my relationship with food, gave up alcohol, started resistance training, and even completed an 80-mile hike through the Cotswolds, yes, on purpose. And I learned one of the most life-changing truths out there: there are no "bad" foods, and fad diets deserve to retire permanently.
               </p>
               <p>
-                Real change comes from building skills, self-compassion, and learning to choose what your body actually needs (instead of what the latest wellness trend told you to fear). Through loss, stress, and all the beautiful chaos of life, these skills helped me stay grounded instead of falling back into old patterns. That transformation inspired me to dive deep into nutrition science, behavior change, and sustainable habits…and eventually become a coach myself.
+                Real change comes from building skills, self-compassion, and learning to choose what your body actually needs (instead of what the latest wellness trend told you to fear). Through loss, stress, and all the beautiful chaos of life, these skills helped me stay grounded instead of falling back into old patterns. That deep personal experience, combined with my obsession with the science behind it, inspired me to become a coach myself.
               </p>
               <p>
-                Today, I’m here to support you with the same empathy, research-backed guidance, and cheerleading that helped me rebuild my own life. I’m your coach, your motivator, and the person who will remind you that you’re doing better than you think. Let’s help you feel strong, energized, and confident in your body, starting now.
+                Today, I'm here to support you with the same empathy, research-backed guidance, and cheerleading that helped me rebuild my own life. I'm your coach, your motivator, and the person who will remind you that you're doing better than you think. Let's help you feel strong, energized, and confident in your body, starting now.
               </p>
               
               <p className="font-heading text-2xl font-bold text-accent pt-2">
